@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E03186E82C9B305D00C2CE2C /* db.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = db.sqlite3; sourceTree = "<group>"; };
+		E03186E92C9B305D00C2CE2C /* __init__.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__init__.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186EA2C9B305D00C2CE2C /* settings.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "settings.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186EB2C9B305D00C2CE2C /* urls.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urls.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186EC2C9B305D00C2CE2C /* wsgi.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wsgi.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186EE2C9B305D00C2CE2C /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		E03186EF2C9B305D00C2CE2C /* asgi.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = asgi.py; sourceTree = "<group>"; };
+		E03186F02C9B305D00C2CE2C /* settings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = settings.py; sourceTree = "<group>"; };
+		E03186F12C9B305D00C2CE2C /* urls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = urls.py; sourceTree = "<group>"; };
+		E03186F22C9B305D00C2CE2C /* wsgi.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = wsgi.py; sourceTree = "<group>"; };
+		E03186F42C9B305D00C2CE2C /* manage.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = manage.py; sourceTree = "<group>"; };
+		E03186F52C9B305D00C2CE2C /* __init__.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__init__.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186F62C9B305D00C2CE2C /* admin.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "admin.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186F72C9B305D00C2CE2C /* apps.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "apps.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186F82C9B305D00C2CE2C /* models.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "models.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186FA2C9B305D00C2CE2C /* __init__.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__init__.cpython-312.pyc"; sourceTree = "<group>"; };
+		E03186FC2C9B305D00C2CE2C /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		E03186FE2C9B305D00C2CE2C /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		E03186FF2C9B305D00C2CE2C /* admin.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = admin.py; sourceTree = "<group>"; };
+		E03187002C9B305D00C2CE2C /* apps.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = apps.py; sourceTree = "<group>"; };
+		E03187012C9B305D00C2CE2C /* models.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = models.py; sourceTree = "<group>"; };
+		E03187022C9B305D00C2CE2C /* tests.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = tests.py; sourceTree = "<group>"; };
+		E03187032C9B305D00C2CE2C /* views.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = views.py; sourceTree = "<group>"; };
+		E03187072C9B31A500C2CE2C /* urls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = urls.py; sourceTree = "<group>"; };
+		E03187082C9B324C00C2CE2C /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		E031870A2C9B324C00C2CE2C /* Bruschetta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bruschetta.jpg; sourceTree = "<group>"; };
+		E031870B2C9B324C00C2CE2C /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		E031870C2C9B324C00C2CE2C /* greek salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "greek salad.jpg"; sourceTree = "<group>"; };
+		E031870D2C9B324C00C2CE2C /* Grill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Grill.jpg; sourceTree = "<group>"; };
+		E031870E2C9B324C00C2CE2C /* Grill B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grill B.jpg"; sourceTree = "<group>"; };
+		E031870F2C9B324C00C2CE2C /* Grilled fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grilled fish.jpg"; sourceTree = "<group>"; };
+		E03187102C9B324C00C2CE2C /* Grilled fish B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grilled fish B.jpg"; sourceTree = "<group>"; };
+		E03187112C9B324C00C2CE2C /* Grilled fish C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grilled fish C.jpg"; sourceTree = "<group>"; };
+		E03187122C9B324C00C2CE2C /* head_chef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_chef.jpg; sourceTree = "<group>"; };
+		E03187132C9B324C00C2CE2C /* lemon dessert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemon dessert.jpg"; sourceTree = "<group>"; };
+		E03187142C9B324C00C2CE2C /* lemon dessert B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lemon dessert B.jpg"; sourceTree = "<group>"; };
+		E03187152C9B324C00C2CE2C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		E03187162C9B324C00C2CE2C /* logo_footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_footer.png; sourceTree = "<group>"; };
+		E03187172C9B324C00C2CE2C /* Mario and Adrian b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mario and Adrian b.jpg"; sourceTree = "<group>"; };
+		E03187182C9B324C00C2CE2C /* mario-and-adrian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mario-and-adrian.jpg"; sourceTree = "<group>"; };
+		E03187192C9B324C00C2CE2C /* pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasta.jpg; sourceTree = "<group>"; };
+		E031871A2C9B324C00C2CE2C /* restaurant chef C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant chef C.jpg"; sourceTree = "<group>"; };
+		E031871B2C9B324C00C2CE2C /* restaurant food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant food.jpg"; sourceTree = "<group>"; };
+		E031871C2C9B324C00C2CE2C /* restaurant food B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant food B.jpg"; sourceTree = "<group>"; };
+		E031871D2C9B324C00C2CE2C /* restaurant inside alternative.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant inside alternative.jpg"; sourceTree = "<group>"; };
+		E031871E2C9B324C00C2CE2C /* restaurant_inside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = restaurant_inside.jpg; sourceTree = "<group>"; };
+		E031871F2C9B324C00C2CE2C /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E03187052C9B311500C2CE2C /* templates */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = templates;
+			sourceTree = "<group>";
+		};
+		E03187222C9B328000C2CE2C /* static */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = static;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXGroup section */
+		E03186DD2C9B303200C2CE2C = {
+			isa = PBXGroup;
+			children = (
+				E03187212C9B324C00C2CE2C /* static */,
+				E03187052C9B311500C2CE2C /* templates */,
+				E03186E82C9B305D00C2CE2C /* db.sqlite3 */,
+				E03186F32C9B305D00C2CE2C /* littlelemon */,
+				E03186F42C9B305D00C2CE2C /* manage.py */,
+				E03187042C9B305D00C2CE2C /* restaurant */,
+			);
+			sourceTree = "<group>";
+		};
+		E03186ED2C9B305D00C2CE2C /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				E03186E92C9B305D00C2CE2C /* __init__.cpython-312.pyc */,
+				E03186EA2C9B305D00C2CE2C /* settings.cpython-312.pyc */,
+				E03186EB2C9B305D00C2CE2C /* urls.cpython-312.pyc */,
+				E03186EC2C9B305D00C2CE2C /* wsgi.cpython-312.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		E03186F32C9B305D00C2CE2C /* littlelemon */ = {
+			isa = PBXGroup;
+			children = (
+				E03186ED2C9B305D00C2CE2C /* __pycache__ */,
+				E03186EE2C9B305D00C2CE2C /* __init__.py */,
+				E03186EF2C9B305D00C2CE2C /* asgi.py */,
+				E03186F02C9B305D00C2CE2C /* settings.py */,
+				E03186F12C9B305D00C2CE2C /* urls.py */,
+				E03186F22C9B305D00C2CE2C /* wsgi.py */,
+			);
+			path = littlelemon;
+			sourceTree = "<group>";
+		};
+		E03186F92C9B305D00C2CE2C /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				E03186F52C9B305D00C2CE2C /* __init__.cpython-312.pyc */,
+				E03186F62C9B305D00C2CE2C /* admin.cpython-312.pyc */,
+				E03186F72C9B305D00C2CE2C /* apps.cpython-312.pyc */,
+				E03186F82C9B305D00C2CE2C /* models.cpython-312.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		E03186FB2C9B305D00C2CE2C /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				E03186FA2C9B305D00C2CE2C /* __init__.cpython-312.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		E03186FD2C9B305D00C2CE2C /* migrations */ = {
+			isa = PBXGroup;
+			children = (
+				E03186FB2C9B305D00C2CE2C /* __pycache__ */,
+				E03186FC2C9B305D00C2CE2C /* __init__.py */,
+			);
+			path = migrations;
+			sourceTree = "<group>";
+		};
+		E03187042C9B305D00C2CE2C /* restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				E03187222C9B328000C2CE2C /* static */,
+				E03187072C9B31A500C2CE2C /* urls.py */,
+				E03186F92C9B305D00C2CE2C /* __pycache__ */,
+				E03186FD2C9B305D00C2CE2C /* migrations */,
+				E03186FE2C9B305D00C2CE2C /* __init__.py */,
+				E03186FF2C9B305D00C2CE2C /* admin.py */,
+				E03187002C9B305D00C2CE2C /* apps.py */,
+				E03187012C9B305D00C2CE2C /* models.py */,
+				E03187022C9B305D00C2CE2C /* tests.py */,
+				E03187032C9B305D00C2CE2C /* views.py */,
+			);
+			path = restaurant;
+			sourceTree = "<group>";
+		};
+		E03187092C9B324C00C2CE2C /* css */ = {
+			isa = PBXGroup;
+			children = (
+				E03187082C9B324C00C2CE2C /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		E03187202C9B324C00C2CE2C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E031870A2C9B324C00C2CE2C /* Bruschetta.jpg */,
+				E031870B2C9B324C00C2CE2C /* favicon.ico */,
+				E031870C2C9B324C00C2CE2C /* greek salad.jpg */,
+				E031870D2C9B324C00C2CE2C /* Grill.jpg */,
+				E031870E2C9B324C00C2CE2C /* Grill B.jpg */,
+				E031870F2C9B324C00C2CE2C /* Grilled fish.jpg */,
+				E03187102C9B324C00C2CE2C /* Grilled fish B.jpg */,
+				E03187112C9B324C00C2CE2C /* Grilled fish C.jpg */,
+				E03187122C9B324C00C2CE2C /* head_chef.jpg */,
+				E03187132C9B324C00C2CE2C /* lemon dessert.jpg */,
+				E03187142C9B324C00C2CE2C /* lemon dessert B.jpg */,
+				E03187152C9B324C00C2CE2C /* logo.png */,
+				E03187162C9B324C00C2CE2C /* logo_footer.png */,
+				E03187172C9B324C00C2CE2C /* Mario and Adrian b.jpg */,
+				E03187182C9B324C00C2CE2C /* mario-and-adrian.jpg */,
+				E03187192C9B324C00C2CE2C /* pasta.jpg */,
+				E031871A2C9B324C00C2CE2C /* restaurant chef C.jpg */,
+				E031871B2C9B324C00C2CE2C /* restaurant food.jpg */,
+				E031871C2C9B324C00C2CE2C /* restaurant food B.jpg */,
+				E031871D2C9B324C00C2CE2C /* restaurant inside alternative.jpg */,
+				E031871E2C9B324C00C2CE2C /* restaurant_inside.jpg */,
+				E031871F2C9B324C00C2CE2C /* salad.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		E03187212C9B324C00C2CE2C /* static */ = {
+			isa = PBXGroup;
+			children = (
+				E03187092C9B324C00C2CE2C /* css */,
+				E03187202C9B324C00C2CE2C /* img */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E03186E22C9B303200C2CE2C /* LittleLemon */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = E03186E52C9B303200C2CE2C /* Build configuration list for PBXLegacyTarget "LittleLemon" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/python3;
+			dependencies = (
+			);
+			name = LittleLemon;
+			packageProductDependencies = (
+			);
+			passBuildSettingsInEnvironment = 1;
+			productName = LittleLemon;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		E03186DE2C9B303200C2CE2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E03186E22C9B303200C2CE2C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = E03186E12C9B303200C2CE2C /* Build configuration list for PBXProject "LittleLemon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E03186DD2C9B303200C2CE2C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E03186E22C9B303200C2CE2C /* LittleLemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E03186E32C9B303200C2CE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		E03186E42C9B303200C2CE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		E03186E62C9B303200C2CE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TY4HT7KGG6;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E03186E72C9B303200C2CE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TY4HT7KGG6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E03186E12C9B303200C2CE2C /* Build configuration list for PBXProject "LittleLemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03186E32C9B303200C2CE2C /* Debug */,
+				E03186E42C9B303200C2CE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03186E52C9B303200C2CE2C /* Build configuration list for PBXLegacyTarget "LittleLemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03186E62C9B303200C2CE2C /* Debug */,
+				E03186E72C9B303200C2CE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E03186DE2C9B303200C2CE2C /* Project object */;
+}
