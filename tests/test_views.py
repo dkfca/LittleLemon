@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.contrib.auth.models import User
 from django.utils.timezone import now
-from LittleLemonAPI.models import Menu, Booking
+from Restaurant.models import Menu, Booking
 
 class ApiViewTest(TestCase):
     username = 'test1'

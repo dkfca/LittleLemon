@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from LittleLemonAPI.models import Menu, Booking
+from Restaurant.models import Menu, Booking
 
 class MenuSerializer(ModelSerializer):
     class Meta:

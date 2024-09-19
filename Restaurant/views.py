@@ -2,8 +2,8 @@ from django.shortcuts import render
 from rest_framework.generics import ListCreateAPIView, DestroyAPIView, RetrieveUpdateAPIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
-from LittleLemonAPI.models import Menu, Booking
-from LittleLemonAPI.serializers import MenuSerializer, BookingSerializer
+from Restaurant.models import Menu, Booking
+from Restaurant.serializers import MenuSerializer, BookingSerializer
 
 def home(request):
     return render(request, 'index.html', {})
@@ -32,3 +32,8 @@ class BookingViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated] 
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
+
+class MenuViewSet(ModelViewSet):
+    permission_classes = [IsAuthenticated] 
+    queryset = Menu.objects.all()
+    serializer_class = MenuSerializer

@@ -1,5 +1,5 @@
 from django.urls import path
-from LittleLemonAPI.views import home, MenuItemsView, SingleMenuItemView, BookingsView, SingleBookingView
+from Restaurant.views import home, MenuItemsView, SingleMenuItemView, BookingsView, SingleBookingView
 from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [

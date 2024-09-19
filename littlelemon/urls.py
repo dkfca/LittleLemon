@@ -17,15 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from LittleLemonAPI.views import BookingViewSet
+from Restaurant.views import BookingViewSet, MenuViewSet
 
 router = DefaultRouter()
-router.register(prefix=r'tables', viewset=BookingViewSet)
+router.register(prefix=r'booking', viewset=BookingViewSet, basename='booking')
+router.register(prefix=r'menu', viewset=MenuViewSet, basename='menu')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/bookings/', include(router.urls)),
-    path('api/', include('LittleLemonAPI.urls')),
+    path('api/', include(router.urls)),
+    #path('api/', include('Restaurant.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
 ]
