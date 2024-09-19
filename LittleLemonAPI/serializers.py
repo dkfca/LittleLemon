@@ -1,7 +1,12 @@
 from rest_framework.serializers import ModelSerializer
-from LittleLemonAPI.models import MenuItem
+from LittleLemonAPI.models import Menu, Booking
 
-class MenuItemSerializer(ModelSerializer):
+class MenuSerializer(ModelSerializer):
     class Meta:
-        model = MenuItem
+        model = Menu
+        fields = '__all__'
+
+class BookingSerializer(ModelSerializer):
+    class Meta:
+        model = Booking
         fields = '__all__'
